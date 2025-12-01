@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    src: url(pacote-projeto-d010/fontes/idroid.otf), format('opentype');
+    font-family: idroid, sans-serif;
+    background-color: #E8E7C2;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: linear-gradient(to top, #053D1C, #084F24, #106937, #197844);
+    color: white;
+}
+
+header > h1{
+    font-family: 'idroid';
+    text-align: center;
+    font-size: 1.8em;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+header > p{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: 23px;
+}
+
+header > nav{
+    padding: 10px;
+}
+
+nav > a{
+    padding: 10px;
+    border-radius: 10%;
+    text-decoration: none;
+    color: #86C8a2;
+
+}
+nav > a:hover{
+    background-color: #1C7A44;
+    }
+
+main{
+    background-color: white;
+    width: 1000px;
+    margin: 0 auto;
+    border-radius: 0 0 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+main > article{
+    padding: 20px;
+    line-height: 1.6em;
+}
+
+#conteudo h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #053D1C;
+    text-align: left;
+}
+
+#conteudo h2{
+    color: #145E36;
+    background-image: linear-gradient(to right, #8AE3AF, #D8F7E4, #f3f5f33a);
+    margin-bottom: 20px;
+}
+
+#conteudo p{
+    margin: 15px;
+}
+
+#conteudo strong{
+    color: #25503F;
+}
+
+#conteudo  a{
+    text-decoration: none;
+    background-color: #86DCAB;
+    color: #00400F;
+    font-weight: bold;
+    padding: 3px;
+    
+}
+
+#conteudo  a:hover{
+    text-decoration: underline;
+}
+
+#conteudo a::after{
+    content: url(pacote-projeto-d010/imagens/LINK.png);
+}
+
+#conteudo img{
+    display: block;
+    margin: 0 auto;
+}
+
+#conteudo iframe{
+    display: block;
+    margin: 0 auto;
+    background-color: #043D1C;
+    padding: 30px 50px;
+}
+
+#extra {
+    background-color: #7FE1A9;
+    color: #002100;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#extra h3{
+    color: white;
+    background-color: #175C33;
+    margin:-20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+#fim{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+footer{
+    background-color:#053D1C;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 2px;
+}

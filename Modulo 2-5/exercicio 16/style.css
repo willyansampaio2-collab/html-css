@@ -1,0 +1,38 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Stack+Sans+Text:wght@200..700&display=swap');
+
+* {
+    /*height: 100%;*/
+    font-family: "Stack Sans Text", sans-serif;
+}
+
+body {
+    text-align: justify;
+    background-image: linear-gradient(to right, #010726, #04588C);
+}
+
+main {
+    
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-style: groove;
+    border-color: #D5B248;
+}
+
+h1 {
+    color: #BA9B3F;
+    text-align: center;
+    text-shadow: 1px 1px 5px rgba(129, 77, 5, 0.726);
+}
+
+h2 {
+    color: #D5B249;
+}
+
+p {
+    color: #dad5c7;
+    text-align: justify;
+}

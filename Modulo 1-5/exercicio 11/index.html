@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/jogar.ico" type="image/x-icon">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width:720px)" srcset="imagens/300x300.png">
+        <source media="(max-width:1050px)" srcset="imagens/700x700.png">
+        <img src="imagens/1000x1000.png" alt="100px">
+    </picture>
+    <h1>Reproduzindo Áudios.</h1>
+    <p>Vamos aprender a reproduzir um Áudio em HTML5.</p>
+    <audio controls preload="metadata">
+        <source src="midia/ISSO É COISA DE MOMENTO - Os Tralhas e Luan No Beat - Os Tralhas (youtube).mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>
